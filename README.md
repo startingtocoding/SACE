@@ -38,7 +38,7 @@ SACE is designed to:
 
 ## Currency Basket
 
-As of October 2025, SACE includes the following currencies:  
+As of October 2025, the SACE Currency Basket Index includes the following Africa's top performing currencies:  
 
 | #  | Currency                                      |
 |----|-----------------------------------------------|
