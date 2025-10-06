@@ -1,3 +1,9 @@
+<!-- Project Badges -->
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Token Type](https://img.shields.io/badge/Token-BEP--20-blue.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Build](https://img.shields.io/badge/Build-Upgradeable%20UUPS-orange.svg)
+![Creator](https://img.shields.io/badge/Creator-Simon%20Kapenda-lightgrey.svg)
 
 # Synthetic African Currency Exchange (SACE)
 
@@ -5,7 +11,7 @@
 **Token Type:** BEP-20 Upgradeable  
 **Total Supply:** 10,000,000,000 SACE  
 **Creator:** Simon Kapenda  
-**Version:** 1.7  
+**Version:** 1.0  
 **Date:** October 6, 2025  
 
 ---
