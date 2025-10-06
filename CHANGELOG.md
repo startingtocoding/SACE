@@ -8,6 +8,14 @@
 
 ---
 
+## [v1.0.1] - 2025-10-06 - Update
+- Updated README.md wording for clarity:
+  - Changed "As of October 2025, SACE includes the following currencies:"  
+    to "As of October 2025, SACE Currency Basket Index includes the following currencies:"  
+  - Improves precision in describing the scope of the SACE project.
+ 
+---
+
 ## Version 1.0 — October 6, 2025
 **Status:** Initial release / repository bootstrap
 
