@@ -28,7 +28,7 @@ SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapen
 
 ## Purpose
 
-SACE was designed to:  
+SACE is designed to:  
 - Create a **synthetic index** representing Africa’s currency performance.  
 - Enable **cross-border trade and exposure** to African forex.  
 - Serve as a **transparent benchmark** for African currency movements.  
@@ -38,7 +38,7 @@ SACE was designed to:
 
 ## Currency Basket
 
-As of September 25, 2025, SACE includes the following currencies:  
+As of October 2025, SACE includes the following currencies:  
 
 | #  | Currency                                      |
 |----|-----------------------------------------------|
