@@ -1,14 +1,16 @@
 
-# Synthetic African Currency Exchange (SACE)
+# Synthetic African Currency Exchange (SACE) — Whitepaper
 
-**Ticker:** SACE
-**Creator:** Simon Kapenda
-**Version:** 1.7
-**Date:** October 6, 2025
+**Ticker:** SACE    
+**Creator:** Simon Kapenda    
+**Version:** 1.0    
+**Date:** October 6, 2025    
 
 ## 1. Abstract
 
-The **Synthetic African Currency Exchange (SACE)** is a blockchain-native BEP-20 token designed to represent a **weighted basket of top African currencies** — creating a synthetic currency index for Africa. Inspired by benchmarks such as the **U.S. Dollar Index (DXY)**, SACE enables a new form of cross-border value representation and a single tradable instrument reflecting Africa's collective currency strength.
+The **Synthetic African Currency Exchange (SACE)** is a blockchain-native BEP-20 token engineered to represent a **weighted basket of Africa’s top-performing currencies**. By creating a synthetic currency index for Africa, SACE delivers a unified benchmark for tracking the continent’s currency strength. Inspired by the proven model of the **U.S. Dollar Index (DXY)**, SACE offers a transparent, tradable instrument that reflects Africa’s collective economic performance, facilitates cross-border trade, and provides **traders and investors** a powerful tool for exposure and hedging within the **African forex landscape**.
+
+SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of CillarCoin (CILLAR) — a utility token — and NADD, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar. Simon Kapenda holds a Bachelor of Science degree in Economics from **The Ohio State University in Columbus, Ohio, USA**, where he graduated in 2008 alongside **JD Vance, Vice President of the United States**.
 
 SACE will serve as:
 - **A tradable synthetic index** paired against USD or other basket currencies.
