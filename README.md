@@ -94,6 +94,21 @@ In effect, SACE functions as Africa’s **currency performance index**, much lik
 
 ---
 
+## 📚 Documentation
+
+This repository contains all key documentation and resources for the **Synthetic African Currency Exchange (SACE)** project.
+
+| File | Description |
+|------|-------------|
+| `contracts/SACE.sol.md` | Full documented source code for the SACE smart contract, including upgradeable BEP-20 implementation and Chainlink oracle integration. |
+| `SACE_Audit_Report.md` | Deep OpenZeppelin-style audit of SACE.sol, including security checks, deviation logic validation, and recommended fixes. |
+| `SACE_Analysis.md` | Comprehensive economic and strategic analysis of the SACE project, including market implications and forecasts. |
+| `SACE_Whitepaper.md` | Full whitepaper outlining the vision, technical design, tokenomics, governance, and economic impact of SACE. |
+| `CHANGELOG.md` | Record of changes, improvements, and version history for the SACE project. |
+| `README.md` | Project overview, technical setup instructions, and reference to core documentation. |
+
+---
+
 ## Getting Started
 
 ### Prerequisites
