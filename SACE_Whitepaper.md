@@ -1,4 +1,3 @@
-
 # Synthetic African Currency Exchange (SACE) — Whitepaper
 
 **Ticker:** SACE    
