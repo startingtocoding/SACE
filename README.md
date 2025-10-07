@@ -9,7 +9,7 @@
 
 **Ticker:** SACE  
 **Token Type:** BEP-20 Upgradeable  
-**Total Supply:** 10,000,000,000 SACE  
+**Total Supply:** 100,000,000,000 SACE  
 **Creator:** Simon Kapenda  
 **Version:** 1.0  
 **Date:** October 6, 2025  
@@ -104,6 +104,7 @@ This repository contains all key documentation and resources for the **Synthetic
 | `SACE_Audit_Report.md` | Deep OpenZeppelin-style audit of SACE.sol, including security checks, deviation logic validation, and recommended fixes. |
 | `SACE_Analysis.md` | Comprehensive economic and strategic analysis of the SACE project, including market implications and forecasts. |
 | `SACE_Whitepaper.md` | Full whitepaper outlining the vision, technical design, tokenomics, governance, and economic impact of SACE. |
+| `SACE_BASKET_VALUE.md` | Detailed analysis of SACE basket value, pricing rationale, growth simulation, and full currency list. |
 | `CHANGELOG.md` | Record of changes, improvements, and version history for the SACE project. |
 | `README.md` | Project overview, technical setup instructions, and reference to core documentation. |
 
