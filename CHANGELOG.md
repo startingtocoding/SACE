@@ -8,6 +8,19 @@
 
 ---
 
+## [v1.0.2] - 2025-10-07
+### Added
+- Added new file `SACE_BASKET_VALUE.md` detailing the economic analysis of the SACE currency basket, pricing model, proportional movements, and long-term performance simulation.
+
+### Changed
+- Updated `README.md` and `Whitepaper.md` to reflect new max supply: **100,000,000,000 SACE** instead of 10,000,000,000.
+- Clarified wording in `README.md`: "As of October 2025, SACE includes the following currencies:" → "As of October 2025, SACE Currency Basket Index includes the following currencies:".
+
+### Fixed
+- Corrected numerical formatting and consistency in documentation.
+
+---
+
 ## [v1.0.1] - 2025-10-06 - Update
 - Updated README.md wording for clarity:
   - Changed "As of October 2025, SACE includes the following currencies:"  
