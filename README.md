@@ -66,6 +66,17 @@ As of October 2025, the SACE Currency Basket Index includes the following Africa
 
 ---
 
+## 📊 SACE Basket Value Summary
+
+As the Synthetic African Currency Exchange (**SACE**) represents a weighted basket of Africa’s top 21 performing currencies, the combined estimated value of this basket is approximately **$2.3 trillion USD**, as of October 2025.
+
+With a max supply of **100 billion SACE tokens**, the starting market price is approximately **$23 USD per SACE** — determined by market conditions to reflect the proportional value of the underlying currency basket.
+
+For a full in-depth analysis, valuation breakdown, and long-term growth projections, see the dedicated document:  
+📄 [SACE_BASKET_VALUE.md](./SACE_BASKET_VALUE.md)
+
+---
+
 ## Technical Overview
 
 SACE uses **OpenZeppelin’s Upgradeable BEP-20 implementation** with the UUPS upgrade pattern and integrates **Chainlink Oracles** for real-time currency rate feeds.  
