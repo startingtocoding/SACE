@@ -8,6 +8,20 @@
 
 ---
 
+## [v1.0.3] - 2025-10-08
+### Release Overview
+This release refines the SACE documentation for accuracy and transparency regarding market valuation dynamics.
+
+### Added / Updated
+- **New Release:** v1.0.3 — Documentation and valuation clarification update.
+- Clarified that the **$23 per SACE** valuation is **market-derived**, not a fixed or preset price by the SACE development team.
+- Updated **SACE_BASKET_VALUE.md** introduction to emphasize that pricing reflects proportional market equilibrium between:
+  - SACE’s 100 billion max supply  
+  - Africa’s $2.3 trillion combined currency basket value
+- Improved language consistency across documentation for better comprehension and investor clarity.
+
+---
+
 ## [v1.0.2] - 2025-10-07
 ### Added
 - Added new file `SACE_BASKET_VALUE.md` detailing the economic analysis of the SACE currency basket, pricing model, proportional movements, and long-term performance simulation.
