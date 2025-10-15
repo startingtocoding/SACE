@@ -8,6 +8,23 @@
 
 ---
 
+## [v1.0.4] - 2025-10-15
+### Added
+- Released **SACE TOKENOMICS & IEO FRAMEWORK** document.
+- Detailed token distribution, founder, team, management, treasury, and IEO allocations.
+- Established **IEO parameters**: price ($23 per SACE), soft cap ($5B USD), hard cap ($57.5B USD), vesting schedule, and target exchanges.
+- Defined SACE **utility**: medium of exchange, governance, staking, and collateral use.
+- Governance structure and compliance guidelines under **Abba Platforms Inc.** and **SASE Governance Board**.
+- Mainnet deployment details: verified **BSC Mainnet** smart contract, upgradeable proxy, and implementation contract address.
+
+### Updated
+- README summary with back link to the full Tokenomics & IEO document.
+
+### Notes
+- SACE represents a weighted basket of Africa’s top 21 currencies, with a combined valuation of **$2.3 trillion USD**.
+
+---
+
 ## [v1.0.3] - 2025-10-08
 ### Release Overview
 This release refines the SACE documentation for accuracy and transparency regarding market valuation dynamics.
