@@ -16,6 +16,20 @@
 
 ---
 
+### 🚀 Mainnet Deployment
+
+The **Synthetic African Currency Exchange (SACE)** smart contract has been successfully deployed to the **BNB Smart Chain (Mainnet)**.  
+SACE represents a **weighted basket of Africa’s top 21 national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset.
+
+**Deployment Details:**
+- **Network:** BNB Smart Chain (Mainnet)  
+- **Proxy Verified Contract Address:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
+- **Standard:** BEP-20 (Upgradeable Proxy via OpenZeppelin)    
+
+SACE provides a unified benchmark for Africa’s collective currency strength, enabling efficient trading, hedging, and cross-border commerce.  
+
+---
+
 ## Summary 
 
 The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing currencies**. Inspired by benchmarks such as the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
