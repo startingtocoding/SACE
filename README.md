@@ -77,6 +77,18 @@ For a full in-depth analysis, valuation breakdown, and long-term growth projecti
 
 ---
 
+## SACE Tokenomics & IEO
+
+The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a weighted basket of Africa’s top 21 currencies, collectively valued at **$2.3 trillion USD**. SACE offers a unified, tradable benchmark for Africa’s currency strength, enhances market efficiency, and facilitates cross-border trade.  
+
+- **Max Supply:** 100 Billion SACE 
+- **IEO Allocation:** 2.5 Billion SACE    
+- **Token Price:** $23 per SACE  
+
+For full details on **tokenomics, IEO framework, distribution, utility, and governance**, see the [SACE TOKENOMICS & IEO FRAMEWORK](./SACE_TOKENOMICS_IEO_FRAMEWORK.md) document.
+
+---
+
 ## Technical Overview
 
 SACE uses **OpenZeppelin’s Upgradeable BEP-20 implementation** with the UUPS upgrade pattern and integrates **Chainlink Oracles** for real-time currency rate feeds.  
