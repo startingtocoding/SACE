@@ -9,6 +9,25 @@
 ---
 
 ## [v1.0.4] - 2025-10-15
+
+### Added
+- Introduced **SACE TOKENOMICS & IEO FRAMEWORK** detailing supply allocation, pricing model, governance, and compliance structure.
+- Added new **IEO release notes** outlining the $23 per token valuation and ecosystem target exchanges (KuCoin, P2B, BitMart, MEXC).
+- Included SACE deployment confirmation on **BSC Mainnet** with verified proxy address.
+- Updated **README** to include deployment details and project ecosystem summary.
+- Published **release v1.0.4** with full documentation and public announcement references.
+
+### Changed
+- Merged descriptions of **SACE**, **CillarCoin (CILLAR)**, and **Namibia Digital Dollar (NADD)** into one cohesive paragraph in README for consistency and improved readability.
+- Revised branding references to highlight **Abba Platforms Inc.** as the umbrella organization.
+- Enhanced formatting and internal linking across documentation.
+
+### Fixed
+- Minor text and formatting inconsistencies in prior README version.
+
+---
+
+## [v1.0.4] - 2025-10-15
 ### Added
 - Released **SACE TOKENOMICS & IEO FRAMEWORK** document.
 - Detailed token distribution, founder, team, management, treasury, and IEO allocations.
