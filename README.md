@@ -19,7 +19,7 @@
 ### 🚀 Mainnet Deployment
 
 The **Synthetic African Currency Exchange (SACE)** smart contract has been successfully deployed to the **BNB Smart Chain (Mainnet)**.  
-SACE represents a **weighted basket of Africa’s top 21 national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset.
+SACE represents a **weighted basket of Africa’s top 21 national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**SACE**.
 
 **Deployment Details:**
 - **Network:** BNB Smart Chain (Mainnet)  
@@ -30,13 +30,13 @@ SACE provides a unified benchmark for Africa’s collective currency strength, e
 
 ---
 
-## Summary 
+## Executive Summary 
 
 The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing currencies**. Inspired by benchmarks such as the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
 
 SACE consolidates Africa’s top 21 currencies into a single tradable instrument, creating a transparent benchmark for the continent’s currency performance. It enhances market efficiency, improves liquidity, enables effective hedging against currency volatility, and facilitates cross-border trade — positioning SACE as a foundational economic tool for Africa’s growing financial ecosystem.  
 
-SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of **CillarCoin (CILLAR)** — a utility token — and **NADD**, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar.
+SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of **CillarCoin (CILLAR)** — a utility token — and **Namibia Digital Dollar (NADD)**, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar. Together, **SACE**, **CILLAR**, and **NADD** form the foundation of Abba Platforms’ digital asset ecosystem — advancing Africa’s financial inclusion, liquidity, and cross-border economic integration through blockchain innovation.
 
 ---
 
