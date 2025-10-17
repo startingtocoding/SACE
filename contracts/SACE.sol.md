@@ -2,23 +2,32 @@
 pragma solidity ^0.8.21;
 
 /**
- * @title Smart African Currency Exchange (SACE)
+ * @title Synthetic African Currency Exchange (SACE)
  * @author Simon Kapenda
- * @notice BEP-20 Upgradeable Token pegged to the Synthetic African Currency Index
+ * @notice BEP-20 Upgradeable token representing a weighted basket of Africa's top 21 currencies
  * @dev Version 2.1 — Full fixes applied for production
  */
 
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
-import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+import "./interfaces/AggregatorV3Interface.sol";
 
-contract SACE is ERC20PermitUpgradeable, ERC20BurnableUpgradeable, UUPSUpgradeable, OwnableUpgradeable, ReentrancyGuardUpgradeable, PausableUpgradeable {
-
-    uint256 public constant MAX_SUPPLY = 10_000_000_000 * 10 ** 18;
+contract SACE is 
+    Initializable,
+    ERC20Upgradeable,
+    ERC20PermitUpgradeable,
+    ERC20BurnableUpgradeable,
+    UUPSUpgradeable,
+    OwnableUpgradeable,
+    ReentrancyGuardUpgradeable,
+    PausableUpgradeable
+{
+    uint256 public constant MAX_SUPPLY = 100_000_000_000 * 10 ** 18;
 
     address public treasuryWallet;
     uint256 public totalWeight;
@@ -27,30 +36,6 @@ contract SACE is ERC20PermitUpgradeable, ERC20BurnableUpgradeable, UUPSUpgradeab
     uint256 public constant HEARTBEAT = 3600; // 1 hour
     uint256 public constant MAX_DEVIATION_BASIS_POINTS = 500; // 5% deviation allowed
 
-    struct Currency {
-        string code;
-        uint256 weight; // Weight in basis points (max total = 10000)
-        uint256 rateUSD;
-        bool active;
-        address feed;
-        uint256 lastUpdated;
-    }
-
-    mapping(string => Currency) public basket;
-    mapping(string => uint256) public lastValidPrice;
-    string[] public currencyCodes;
-
-    event TreasuryWalletUpdated(address indexed oldWallet, address indexed newWallet);
-    event CurrencyUpdated(string code, uint256 rateUSD, uint256 weight, bool active, address feed, uint256 timestamp);
-    event CurrencyRemoved(string code);
-    event IndexRecomputed(uint256 newIndexValue);
-    event PriceDeviationRejected(string code, uint256 attemptedPrice, uint256 lastValidPrice, uint256 deviationBasisPoints);
-    event BasketWeightsNormalized(uint256 totalWeight);
-
-    constructor() {
-        _disableInitializers();
-    }
-
     /**
      * @notice Initialize the SACE contract
      * @param _treasuryWallet Wallet that will hold the initial supply
@@ -58,8 +43,8 @@ contract SACE is ERC20PermitUpgradeable, ERC20BurnableUpgradeable, UUPSUpgradeab
     function initialize(address _treasuryWallet) public initializer {
         require(_treasuryWallet != address(0), "Invalid treasury wallet");
 
-        __ERC20_init("Smart African Currency Exchange", "SACE");
-        __ERC20Permit_init("Smart African Currency Exchange");
+        __ERC20_init("Synthetic African Currency Exchange", "SACE");
+        __ERC20Permit_init("Synthetic African Currency Exchange");
         __ERC20Burnable_init();
         __Ownable_init();
         __UUPSUpgradeable_init();
@@ -118,21 +103,6 @@ contract SACE is ERC20PermitUpgradeable, ERC20BurnableUpgradeable, UUPSUpgradeab
         if (basket[code].weight == 0) {
             currencyCodes.push(code);
         }
-
-        uint256 rateUSD = feed != address(0) ? getLatestPrice(feed, code) : 0;
-
-        basket[code] = Currency({
-            code: code,
-            weight: weight,
-            rateUSD: rateUSD,
-            active: active,
-            feed: feed,
-            lastUpdated: block.timestamp
-        });
-
-        emit CurrencyUpdated(code, rateUSD, weight, active, feed, block.timestamp);
-        recomputeIndex();
-    }
 
     /**
      * @notice Remove a currency from basket
