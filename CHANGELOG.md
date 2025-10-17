@@ -8,6 +8,27 @@
 
 ---
 
+Excellent 👍
+
+Here’s the next logical `CHANGELOG.md` entry — following your last version `v1.0.4` — formatted consistently and professionally:
+
+---
+
+## [v1.0.5] - 2025-10-17
+
+### Updated
+
+* **SACE.sol**: Enhanced contract architecture to support a corrected proxy linkage and verified upgrade path on BSC.
+* Improved UUPS upgrade logic and proxy initialization checks to ensure accurate implementation address mapping.
+* Cleaned up redundant dependency references and reinforced upgrade safety mechanisms.
+
+### Fixed
+
+* Proxy verification issue that caused the contract to point to the wrong implementation address.
+* Compilation warnings related to overlapping artifacts (`SACE.sol` and `SACE_flattened.sol`).
+
+---
+
 ## [v1.0.4] - 2025-10-15
 
 ### Added
